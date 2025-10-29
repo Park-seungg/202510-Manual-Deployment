@@ -9,7 +9,7 @@ public class HomeController {
     @GetMapping("/")
     public String home() {
         return """
-                <h1>park-seung test</h1>
+                <h1>park-seung test!</h1>
                 """;
     }
 }
